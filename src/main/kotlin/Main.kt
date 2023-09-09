@@ -25,7 +25,7 @@ fun main(args: Array<String>) {
     val fullName = firstName + ' ' + lastName
 
     // Задание 6
-    val myDetails = "Привет, меня зовут ${fullName}."
+    val myDetails = "Привет, меня зовут $fullName"
 
     // Задание 7
     val date = Triple(9, 8, 2023)
